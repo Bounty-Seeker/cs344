@@ -1,10 +1,10 @@
-﻿Build started 01/05/2016 20:00:40.
+﻿Build started 01/05/2016 20:29:25.
      1>Project "C:\Users\Joshua Spaul\Documents\Programming\Udacity\Intro_to_parallel_programming\Cubing_Numbers\Cubing_Numbers\Cubing_Numbers.vcxproj" on node 2 (Build target(s)).
      1>AddCudaCompileDeps:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /DNDEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I. /FIcuda_runtime.h /c "C:\Users\Joshua Spaul\Documents\Programming\Udacity\Intro_to_parallel_programming\Cubing_Numbers\Cubing_Numbers\cubeKernel.cu" 
        CudaBuild:
          Compiling CUDA source file cubeKernel.cu...
-         cmd.exe /C "C:\Users\Joshua Spaul\AppData\Local\Temp\tmp03040a5a73c64cc2af7625b33ba71f93.cmd"
+         cmd.exe /C "C:\Users\Joshua Spaul\AppData\Local\Temp\tmp3f4dbf827e784997aa40847fb8f22f5e.cmd"
          "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o x64\Release\cubeKernel.cu.obj "C:\Users\Joshua Spaul\Documents\Programming\Udacity\Intro_to_parallel_programming\Cubing_Numbers\Cubing_Numbers\cubeKernel.cu"
          
          C:\Users\Joshua Spaul\Documents\Programming\Udacity\Intro_to_parallel_programming\Cubing_Numbers\Cubing_Numbers>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o x64\Release\cubeKernel.cu.obj "C:\Users\Joshua Spaul\Documents\Programming\Udacity\Intro_to_parallel_programming\Cubing_Numbers\Cubing_Numbers\cubeKernel.cu" 
@@ -25,4 +25,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:04.76
+Time Elapsed 00:00:05.15
